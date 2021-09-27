@@ -1,6 +1,6 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+	<p>© Copyright 2021 4S </p>
 </footer>
 
 

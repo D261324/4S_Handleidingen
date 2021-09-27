@@ -30,3 +30,17 @@
     color: #ccc;
     content: "/\00a0";
 }
+.row{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.row footer {
+    background-color: #343a40;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+footer p{
+    color: #ccc;
