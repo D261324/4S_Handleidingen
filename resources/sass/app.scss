@@ -30,17 +30,32 @@
     color: #ccc;
     content: "/\00a0";
 }
+
+.jumbotron{
+    font-weight: bolder;
+    font-size: large;
+}
+.jumbotron h1{
+    font-size: 60px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
 .row{
     text-align: center;
     display: flex;
     justify-content: center;
     
 }
+
 .row footer {
     background-color: #343a40;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 footer p{
     color: #ccc;
+}
