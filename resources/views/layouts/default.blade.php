@@ -6,6 +6,7 @@
     @yield('head')
 </head>
 <body>
+@include('includes.greeting')
 
 @include('includes.navbar')
 

@@ -30,7 +30,22 @@
     color: #ccc;
     content: "/\00a0";
 }
-
+// ==================== start eigen code ==================
+// hier boven staat code wat al aanwezig was vanaf het 
+// begin. 
+// 
+// ==================== start eigen code ==================
+.namespace{
+    text-align: center;
+    padding: 0;
+}
+.namespace>h1{
+    color:#000;
+}
+a{
+    color: #212529;
+}
+// ================== main text onder header================
 .jumbotron{
     font-weight: bolder;
     font-size: large;
@@ -49,6 +64,7 @@
     
 }
 
+// ================== footer css =======================
 .row footer {
     background-color: #343a40;
     width: 100%;
@@ -58,4 +74,30 @@
 }
 footer p{
     color: #ccc;
+}
+// =============================== clock styling ======================================
+body {
+    // background: url('computerIMGedit.jpg');
+    color: white;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #e6967e;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 7px;
+    transition: 0.5s;
+   
+
+
+}
+.clock:hover {
+     transform: translateY(-10px);
+     transition: 0.5s;
+     font-size: 80px;
+     color: whitesmoke;
 }
