@@ -6,10 +6,10 @@
     @yield('head')
 </head>
 <body>
-@include('includes.greeting')
+
 
 @include('includes.navbar')
-
+@include('includes.greeting')
 <div class="container">
     <div class="row">
 

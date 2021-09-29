@@ -63,22 +63,57 @@ a{
     justify-content: center;
     
 }
+// ================== list handleidingen ===============
+.col-md-8 > .container > .row{
+    background: #e9ecef;
+    margin-top: 20px ;
+}
+h1{
+    background-color: #e9ecef;
+    color:black;
+}
+// sub-list type nummers
+.col-md-8 > .container > ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
 
 // ================== footer css =======================
 .row footer {
-    background-color: #343a40;
+    background-color: #343a40 ;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-footer p{
-    color: #ccc;
+footer > .container{
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+}
+footer > .container > .socials{
+    display: flex;
+    flex-flow: row;
+}
+footer  > .container > .contactinfo > ol > li{
+    list-style: none; 
+}
+footer  > .container > .contactinfo > h7{
+    text-align: center;
+}
+footer > .container > .socials > a{
+    font-size: xx-large;
+    text-align: center; 
+}
+footer h7{
+    font-size: larger;
 }
 // =============================== clock styling ======================================
 body {
     // background: url('computerIMGedit.jpg');
-    color: white;
+    color: #000;
 }
 
 .clock {

@@ -1,6 +1,29 @@
 
 <footer>
-	<p>© Copyright 2021 4S </p>
+  
+  <div class="container">
+    <div class="about">
+      <h7>over ons</h7>
+        <p>hier komt een stukje tekst over<br> ons mooie bedrijf <br> of een linkje naar een about page</p>
+    </div>
+
+    <div class="socials">
+      <h7>volg ons op</h7>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-instagram-square"></i></a>
+    </div>
+
+    <div class="contactinfo">
+      <h7>contact</h7>
+        <ol>
+          <li>tel: 06-123456789</li>
+          <li>email: testemail@test.test</li>
+          <li>linkt-in: tester-4s</li>
+        </ol>
+    </div>
+  </div>
+	<!-- <p>© Copyright 2021 4S </p> -->
 </footer>
 
 
