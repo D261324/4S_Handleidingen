@@ -9,7 +9,6 @@
 
 
 @include('includes.navbar')
-@include('includes.greeting')
 <div class="container">
     <div class="row">
 

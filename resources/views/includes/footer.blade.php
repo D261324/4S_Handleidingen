@@ -9,10 +9,16 @@
 
     <div class="socials">
       <h7>volg ons op</h7>
-        <a href=""><i class="fab fa-twitter-square"></i></a>
-        <a href=""><i class="fab fa-facebook-square"></i></a>
-        <a href=""><i class="fab fa-instagram-square"></i></a>
-    </div>
+        <div class="social-icons">
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+        </div>
+
+        <div class="copyright">
+          <p>© Copyright 2021 - 4S - </p>
+        </div>
+      </div>
 
     <div class="contactinfo">
       <h7>contact</h7>
@@ -23,7 +29,7 @@
         </ol>
     </div>
   </div>
-	<!-- <p>© Copyright 2021 4S </p> -->
+	
 </footer>
 
 
