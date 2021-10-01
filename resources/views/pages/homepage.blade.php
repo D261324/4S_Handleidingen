@@ -13,14 +13,11 @@
             {{ __('misc.all_brands') }}
         @show
     </h1>
-
-
     <?php
     $size = count($brands);
     $columns = 3;
     $chunk_size = ceil($size / $columns);
     ?>
-
     <div class="container">    
         <!-- Example row of columns -->
         <div class="row">
@@ -47,15 +44,11 @@
                             </li>
                         @endforeach
                     </ul>
-
                 </div>
                 <?php
                 unset($header_first_letter);
                 ?>
             @endforeach
-
         </div>
-
     </div>
-
 @endsection
