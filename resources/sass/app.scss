@@ -171,3 +171,14 @@ body {
     color: white;  
     text-decoration: none;
 }
+
+// =============================== download link button styling ======================================
+.top10-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    width: 100%;
+}
+ul{
+    background: #e9ecef;
+}

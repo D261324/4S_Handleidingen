@@ -21,6 +21,7 @@
                 @yield('breadcrumb')
             </ul>
 
+            
             @if ( isset($_GET['q']) )
                 @include('includes.search_results')
             @else

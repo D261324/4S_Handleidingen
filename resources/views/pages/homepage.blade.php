@@ -7,7 +7,28 @@
 @endsection
 
 @section('content')
+    <h1>top 10 lijst met meest bezochte manuals</h1>
+    <ul>
+        @foreach($query as $brand)
+            <?php
+                $manualtype = DB::table('manual_type')->where('manual_id','=',$brand->id)->get();
+                $manuallist = array($manualtype);
 
+                $type_id = $manuallist[0][0]->type_id;
+                $type = DB::table('types')->where('id','=',$type_id)->get();
+                $typelist = array($type);
+
+                $brandId = $typelist[0][0]->brand_id;
+                $testbrandname = DB::table('brands')->where('id','=',$brandId)->get();
+
+                $brandname = $testbrandname[0]->name;
+                $brandtype = $typelist[0][0]->name;
+            ?>
+            <li class="top10-list">
+                <a class="button-styling" href="/">{{ $brandname }}</a> <span> : </span> <a href="/">{{ $brandtype }}</a>
+            </li>
+        @endforeach
+    </ul>
     <h1>
         @section('title')
             {{ __('misc.all_brands') }}
